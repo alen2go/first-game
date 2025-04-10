@@ -58,3 +58,11 @@ position = Vector2(0, -12)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
 position = Vector2(0, 6.08156)
 shape = SubResource("RectangleShape2D_0l8pv")
+
+[node name="RayCastRight" type="RayCast2D" parent="."]
+position = Vector2(0, -5.91844)
+target_position = Vector2(6.81072, 0.110711)
+
+[node name="RayCastLeft" type="RayCast2D" parent="."]
+position = Vector2(0, -5.91844)
+target_position = Vector2(-6.811, 0.111)
